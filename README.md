@@ -2,11 +2,6 @@
 在label上添加支持link，label support link
 
 use
- YHLabelLink * lineOne = [[YHLabelLink alloc] initWithFrame:CGRectMake(20, 40, 200, 20)];
-    [lineOne allContent:@"拨打热线1234567890" linkContent:@"123" clickBlock:^(click block) {
-        UIAlertView * alter = [[UIAlertView alloc] initWithTitle:@"提示" message:@"点击123" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
-        [alter show];
-    }];
     
     
     //链接颜色和字体颜色
@@ -47,7 +42,6 @@ use
     
     
     
-    [self.view addSubview:lineOne];
     [self.view addSubview:lineTwo];
     [self.view addSubview:lineThr];
     [self.view addSubview:lineFour];
